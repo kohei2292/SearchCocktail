@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cocktail" representedClassName="Cocktail" syncable="YES" codeGenerationType="class">
+        <attribute name="baseName" optional="YES" attributeType="String"/>
+        <attribute name="cocktailDesc" optional="YES" attributeType="String"/>
+        <attribute name="cocktailId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cocktailName" optional="YES" attributeType="String"/>
+        <attribute name="recipeDesc" optional="YES" attributeType="String"/>
+        <attribute name="tasteName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Cocktail" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Recipe" positionX="-54" positionY="36" width="128" height="29"/>
+    </elements>
+</model>
